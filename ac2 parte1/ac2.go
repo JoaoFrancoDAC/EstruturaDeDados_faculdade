@@ -12,13 +12,16 @@ type Ponto struct {
 
 
 func main() {
+  fmt.Println("---Ex:1---")
   imprimeVetor(10)
-  
+
+  fmt.Println("---Ex:2---")
   var frase string
   fmt.Println("Digite uma string")
   fmt.Scanln(&frase)
   fmt.Println("String invertida:", inverterString(frase))
 
+  fmt.Println("---Ex:3---")
   ponto := Ponto{5, 8}
   fmt.Println("Distância até a origem:", ponto.DistanciaOrigem())
   
